@@ -93,7 +93,7 @@ body {
 .about-band-image {
   float: left;
   height: 200px;
-  width: 200px;
+  width: 100%;
   margin: 15px;
   border-radius: 50%;
 }
@@ -358,5 +358,13 @@ body {
 @media (min-width: 1200px) {
   html {
     font-size: 1rem;
+  }
+}
+/* Using a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left,
+  .main,
+  .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
