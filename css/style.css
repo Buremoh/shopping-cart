@@ -368,3 +368,25 @@ body {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
+
+@media screen and (max-width: 500px) {
+  .main-header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+  .band-name {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .main-footer {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: medium;
+  }
+}
