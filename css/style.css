@@ -374,6 +374,7 @@ body {
     float: none;
     display: block;
     text-align: left;
+    font-size: medium;
   }
   .header-right {
     float: none;
