@@ -413,3 +413,7 @@ body {
     border: none;
   }
 }
+
+@-ms-viewport {
+  width: "device-width";
+}
