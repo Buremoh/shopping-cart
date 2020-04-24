@@ -54,7 +54,7 @@ body {
 
 .main-header {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url("Images/Header Background.jpg");
+  background-image: url("images/Header Background.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
@@ -350,13 +350,13 @@ body {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   html {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
 
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) {
   html {
-    font-size: 0.05rem;
+    font-size: 1rem;
   }
 }
