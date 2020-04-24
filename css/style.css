@@ -339,3 +339,24 @@ body {
   margin: 40px auto 80px auto;
   font-size: 1.75em;
 }
+
+/* Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {
+  html {
+    font-size: 2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  html {
+    font-size: 0.5rem;
+  }
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  html {
+    font-size: 0.05rem;
+  }
+}
